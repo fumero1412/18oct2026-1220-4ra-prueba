@@ -168,7 +168,9 @@ async def main():
                     event.message.text
                 ):
                     return
-await copiar_mensaje(
+
+                # AQUÍ ESTABA EL ERROR: Ahora tiene la sangría correcta
+                await copiar_mensaje(
                     event.message,
                     destino
                 )
