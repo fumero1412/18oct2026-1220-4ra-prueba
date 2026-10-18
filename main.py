@@ -1,4 +1,4 @@
-[18/10/2026 12:13] Shoyo Hinata: from telethon import TelegramClient, events
+from telethon import TelegramClient, events
 import asyncio, threading, os, glob
 from flask import Flask
 from telethon.sessions import StringSession
