@@ -168,7 +168,7 @@ async def main():
                     event.message.text
                 ):
                     return
-[18/10/2026 12:13] Shoyo Hinata: await copiar_mensaje(
+await copiar_mensaje(
                     event.message,
                     destino
                 )
